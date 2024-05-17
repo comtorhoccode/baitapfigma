@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-content{
+    width: 33%;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: left;
+}
+.menu-child{
+    width: 33%;
+    display: inline;
+    margin: 0px 10px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+.header-button{
+    width: 33%;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: right;
+}
+.button-content{
+    width: 150px;
+    background-color: black;
+    text-align: center;
+}
+.body{
+    margin: 100px auto;
+}
+.body1{
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+}
+.body1-box1{
+    width: 30%;
+    margin-top: 30px;
+    z-index: 10;
+}
+.box1-p1{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.box1-p2{
+    font-size: 200px;
+    margin-left: 30px;
+    z-index: 10;
+}
+.body1-box2{
+    width: 40%;
+    height: 500px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+    background-size: cover;
+    margin-left: 50px;
+    z-index: 1;
+}
+.body1-box3{
+    width: 30%;
+    margin-left: 100px;
+    display: block;
+}
+.box3-text{
+    height: 300px;
+}
+.box3-text1{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box3-text2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.box3-button{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+}
+.box3-img{
+    margin-top: 20px;
+    height: 300px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+}
+
+.body2{
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+}
+.body2-box1{
+    margin-top: 50px;
+    width: 40%;
+    height: 700px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+}
+.body2-box2{
+    margin: 50px 100px;
+    width: 40%;
+    display: block;
+}
+.text1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+.text2{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+.text3{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.box2-button{
+    width: 150px;
+    height:50px ;
+    line-height: 50px;
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: 1px solid black;
+}
+
+.body3{
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    display: flex;
+    margin-top: 150px;
+}
+.body3-box1{
+    width: 40%;
+    height: 700px;
+}
+.body3-p1{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.body3-p2{
+    margin-bottom: 30px;
+    display: flex;
+}
+.body3-p2a{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.body3-p2b{
+    font-size: 80px;
+}
+.body3-p3{
+    margin-bottom: 30px;
+    display: flex;
+}
+.body3-p3a{
+    font-size: 80px;
+    margin-right: 10px;
+}
+.body3-p3b{
+    font-size: 25px;
+}
+
+.body3-box2{
+    width: 60%;
+    height: 600px;
+    margin-left: 50px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+}
+
+.body4{
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+    margin-top: 150px;
+}
+.two-img{
+    width: 50%;
+    position: relative;
+}
+.body4-img1{
+    width: 70%;
+    height: 400px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.body4-img2{
+    width: 70%;
+    height: 400px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+    position: absolute;
+    top: 200px;
+    right: 0px;
+}
+.body4-content{
+    width: 50%;
+    margin-left: 50px;
+}
+.body4-content1{
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.body4-content2{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.body4-content3{
+    font-size: 25px;
+}
+.body5{
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+.body6{
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+    margin-top: 50px;
+}
+.body6-box1{
+    width: 33%;
+    height: 600px;
+}
+.body6-box1a{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.body6-box1b{
+    font-size: 50px;
+    font-family: "Adobe Caslon Pro";
+    margin-bottom: 20px;
+}
+.body6-box1c{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.body6-box1d{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.body6-box1e{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid black;
+}
+.body6-box2{
+    width: 33%;
+    height: 600px;
+    margin-left: 100px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+}
+.body6-box3{
+    width: 33%;
+    height: 600px;
+    margin-left: 100px;
+}
+.body6-box3a1{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.body6-box3a2{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.body6-box3b1{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.body6-box3b2{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.body6-box3c1{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.body6-box3c2{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.body6-box3d1{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.body6-box3d2{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.body7{
+    width: 80%;
+    height: 700px;
+    margin: 20px auto;
+    display: flex;
+    margin-top: 50px;
+}
+.body7-box1{
+    width: 33%;
+    height: 700px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+}
+.body7-box2 {
+    width: 33%;
+    height: 700px;
+    margin: 0px 50px;
+}
+.body7-box2a{
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.body7-box2b{
+    font-size: 20px;
+}
+.body7-box3{
+    width: 33%;
+    height: 700px;
+    display: block;
+}
+.body7-box3-img{
+    height: 550px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+}
+.body7-box3-text{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.body8{
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+    display: flex;
+    margin-top: 50px;
+}
+.body8-box1{
+    width: 50%;
+}
+.body8-box1a{
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-family: "Adobe Arabic";
+}
+.body8-box1b{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Adobe Arabic";
+    border: 1px solid black;
+}
+.body8-box2{
+    width: 50%;
+    height: 500px;
+    background-image: url("https://homedecorplus.vn/wp-content/uploads/tap-chi-noi-that-322-homedecorplus-03.jpg");
+
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+    background-color: black;
+}
+.footer-box1{
+    width: 40%;
+    margin-left: 150px;
+}
+.footer-box1a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: white;
+}
+.footer-box1b{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 150px;
+}
+.footer-box1c{
+    font-size: 15px;
+    color: white;
+}
+.footer-box2{
+    width: 40%;
+    margin-left: 150px;
+}
+.footer-box2a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: white;
+}
+.footer-box2b{
+    width: 100%;
+    font-size: 15px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.footer-box2c{
+    margin-top: 50px;
+    display: flex;
+}
+.footer-box2c-left{
+    font-size: 15px;
+    color: white;
+}
+.footer-box2c-left li{
+    margin-bottom: 10px;
+    list-style-type:none;
+}
+.footer-box2c-right {
+    font-size: 15px;
+    color: white;
+}
+.footer-box2c-right li {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    list-style-type:none;
+}
+.footer-box3 {
+    width: 20%;
+}
+.footer-box3-content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 300px;
+    color: white;
+    list-style-type:none;
+}
